@@ -44,7 +44,7 @@
 <h2 align="middle">Aayush Patel</h2>
 
 <!-- Add Website URL -->
-<h2 align="middle">Website URL: <a href="https://cal-cs184-student.github.io/hw-webpages-sp24-yoshi-p27/">TODO</a></h2>
+<h2 align="middle">Website URL: <a href="https://cal-cs184-student.github.io/hw-webpages-sp24-yoshi-p27/">PAGE</a></h2>
 
 <br><br>
 
@@ -53,34 +53,34 @@
   <table style="width=100%">
       <tr>
           <td align="middle">
-          <img src="images/example_image.png" width="480px" />
+          <img src="./images/example_image.png" width="480px" />
           <figcaption align="middle">Results Caption: my bunny is the bounciest bunny</figcaption>
       </tr>
   </table>
 </div>
 
-<p>All of the text in your write-up should be <em>in your own words</em>. If you need to add additional HTML features to this document, you can search the <a href="http://www.w3schools.com/">http://www.w3schools.com/</a> website for instructions. To edit the HTML, you can just copy and paste existing chunks and fill in the text and image file names appropriately.</p>
-<o>The website writeup is intended to be a self-contained walkthrough of the assignment: we want this to be a piece of work which showcases your understanding of relevant concepts through both mesh images as well as written explanations about what you did to complete each part of the assignment. Try to be as clear and organized as possible when writing about your own output files or extensions to the assignment. We want to understand what you've achieved and how you've done it!</p> 
-<p>If you are well-versed in web development, feel free to ditch this template and make a better looking page.</p>
+<!--<p>All of the text in your write-up should be <em>in your own words</em>. If you need to add additional HTML features to this document, you can search the <a href="http://www.w3schools.com/">http://www.w3schools.com/</a> website for instructions. To edit the HTML, you can just copy and paste existing chunks and fill in the text and image file names appropriately.</p>-->
+<!--<o>The website writeup is intended to be a self-contained walkthrough of the assignment: we want this to be a piece of work which showcases your understanding of relevant concepts through both mesh images as well as written explanations about what you did to complete each part of the assignment. Try to be as clear and organized as possible when writing about your own output files or extensions to the assignment. We want to understand what you've achieved and how you've done it!</p> -->
+<!--<p>If you are well-versed in web development, feel free to ditch this template and make a better looking page.</p>-->
 
 
-<p>Here are a few problems students have encountered in the past. Test your website on the instructional machines early!</p>
-<ul>
-<li>Your main report page should be called index.html.</li>
-<li>Be sure to include and turn in all of the other files (such as images) that are linked in your report!</li>
-<li>Use only <em>relative</em> paths to files, such as <pre>"./images/image.jpg"</pre>
-Do <em>NOT</em> use absolute paths, such as <pre>"/Users/student/Desktop/image.jpg"</pre></li>
-<li>Pay close attention to your filename extensions. Remember that on UNIX systems (such as the instructional machines), capitalization matters. <pre>.png != .jpeg != .jpg != .JPG</pre></li>
-<li>Be sure to adjust the permissions on your files so that they are world readable. For more information on this please see this tutorial: <a href="http://www.grymoire.com/Unix/Permissions.html">http://www.grymoire.com/Unix/Permissions.html</a></li>
-<li>And again, test your website on the instructional machines early!</li>
-</ul>
+<!--<p>Here are a few problems students have encountered in the past. Test your website on the instructional machines early!</p>-->
+<!--<ul>-->
+<!--<li>Your main report page should be called index.html.</li>-->
+<!--<li>Be sure to include and turn in all of the other files (such as images) that are linked in your report!</li>-->
+<!--<li>Use only <em>relative</em> paths to files, such as <pre>"./images/image.jpg"</pre>-->
+<!--Do <em>NOT</em> use absolute paths, such as <pre>"/Users/student/Desktop/image.jpg"</pre></li>-->
+<!--<li>Pay close attention to your filename extensions. Remember that on UNIX systems (such as the instructional machines), capitalization matters. <pre>.png != .jpeg != .jpg != .JPG</pre></li>-->
+<!--<li>Be sure to adjust the permissions on your files so that they are world readable. For more information on this please see this tutorial: <a href="http://www.grymoire.com/Unix/Permissions.html">http://www.grymoire.com/Unix/Permissions.html</a></li>-->
+<!--<li>And again, test your website on the instructional machines early!</li>-->
+<!--</ul>-->
 
 
-<p>Here is an example of how to include a simple formula:</p>
-<p align="middle"><pre align="middle">a^2 + b^2 = c^2</pre></p>
-<p>or, alternatively, you can include an SVG image of a LaTex formula.</p>
+<!--<p>Here is an example of how to include a simple formula:</p>-->
+<!--<p align="middle"><pre align="middle">a^2 + b^2 = c^2</pre></p>-->
+<!--<p>or, alternatively, you can include an SVG image of a LaTex formula.</p>-->
 
-<div>
+<!--<div>-->
 
 <h2 align="middle">Overview</h2>
 <p>
@@ -143,10 +143,6 @@ Show images with normal shading for a few small .dae files. -->
       </td>
     </tr>
     <tr align="center">
-      <td>
-        <img src="./images/plane.png" align="middle" width="400px"/>
-        <figcaption>beast.dae</figcaption>
-      </td>
       <td>
         <img src="./images/cow.png" align="middle" width="400px"/>
         <figcaption>cow.dae</figcaption>
@@ -213,7 +209,9 @@ Compare rendering times on a few scenes with moderately complex geometries with 
   Compare rendering times on a few scenes with moderately complex geometries with and without BVH acceleration. Present your results in a one-paragraph analysis.
 </h3>
 <p>
-    YOUR RESPONSE GOES HERE
+    Rendering times were signfiicantly faster with BVH acceleration. This was particularly noticable in the maxPlanck.dae
+  file which I could nearly not render at all, but rendered in a few minutes after acceleration. It was also signficantly faster for the cow.dae
+  file than before.
 </p>
 <br>
 
@@ -263,18 +261,18 @@ Compare the results between uniform hemisphere sampling and lighting sampling in
     <br>
     <tr align="center">
       <td>
-        <img src="images/CBbunny_H_16_8.png" align="middle" width="400px"/>
+        <img src="./images/CBbunny_H_16_8.png" align="middle" width="400px"/>
         <figcaption>CBBunny.dae with hemisphere sampling</figcaption>
       </td>
       <td>
-        <img src="images/CBbunny_16_8.png" align="middle" width="400px"/>
+        <img src="./images/CBbunny_16_8.png" align="middle" width="400px"/>
         <figcaption>example1.dae</figcaption>
       </td>
     </tr>
     <br>
     <tr align="center">
       <td>
-        <img src="images/CBspheresH.png" align="middle" width="400px"/>
+        <img src="images/CBsphereH.png" align="middle" width="400px"/>
         <figcaption>example2.dae</figcaption>
       </td>
       <td>
@@ -295,11 +293,11 @@ Compare the results between uniform hemisphere sampling and lighting sampling in
   <table style="width:100%">
     <tr align="center">
       <td>
-        <img src="./images/CBspheres1.png.png" align="middle" width="200px"/>
+        <img src="./images/CBspheres1.png" align="middle" width="200px"/>
         <figcaption>1 Light Ray (CBspheres.dae)</figcaption>
       </td>
       <td>
-        <img src="./images/CBspheres2.png" align="middle" width="200px"/>
+        <img src="./images/CBspheres4.png" align="middle" width="200px"/>
         <figcaption>4 Light Rays (CBspheres.dae)</figcaption>
       </td>
     </tr>
@@ -323,8 +321,8 @@ Compare the results between uniform hemisphere sampling and lighting sampling in
   Compare the results between uniform hemisphere sampling and lighting sampling in a one-paragraph analysis.
 </h3>
 <p>
-    Uniform hemisphere sampling tends to result in significantly more than lighting sampling. It also tends to result in less consisent
-  much softer shadows. Beyond this, redner times seem fairly similar, meaning that it seems rarely advatageous to use hemisphere sampling instead
+    Uniform hemisphere sampling tends to result in significantly more noise than lighting sampling, particularly in the soft shadow areas of the scene. It also tends to result in less consistent, much
+  much softer shadows in general. In general, light sampling tends to have the effect of significantly reducing noise and increasing sharpness of the image as a result Beyond this, render times seem fairly similar, meaning that it seems rarely advatageous to use hemisphere sampling instead
   of lighting sampling -- at least for the sizes of the renders that we used.
 </p>
 <br>
@@ -342,7 +340,22 @@ You will probably want to use the instructional machines for the above renders i
   Walk through your implementation of the indirect lighting function.
 </h3>
 <p>
-    YOUR RESPONSE GOES HERE
+    Implementing indirect lighting allows primitives in the scene which do not have a light hitting them directly to still
+  be illuminated by reflections off the surrounding areas. You may have noticed that the ceilings in images with a zone light in them
+  are completely dark. However, you rarely see a conpletely dark ceiling with a light in it. This is because it is illuminated by the reflected light.
+
+</p>
+<p>
+  First I use a coin flip function with a probability of .3 to check if the image ray should randomly be terminated
+  as part of the russian roulette implementation. I also check that this only occurs if the ray has bounced more than once.
+  If the rays depth is 0, the function also terminates. If not, evaluate the bsdf of the intersection using the same method as in previous functions, except that we call the sample_f
+  wrapper which also returns a pointer to the incident ray and the pdf. Then I generate a new ray, assigning its depth to the size of the input ray minus 1 to decrement the ray.
+  If we are accumulating bounces, we check if there is an intersection for this new ray. If so, we check if there have been more than one bounces, we recursivley call the function on the new ray and the new intersection. WE then multiply
+  this by the evaluated bsdf, the cosign value of the angle between the incident and the normal of the intersection, divided by the pdf and (1-0.3). This value is added to the one_bounce_radiance value.
+  If there has not been more than one bounce, I don't divide it by (1-.3) since russian roulette shouldn't be applied to rays that haven't bounced more than once.
+
+  If we are not accumulating bounces, the logic is similar, except if the intersection occurs, but the light has more bounces left before it is supposed to terminate, then the computed values are added to a zero vector
+  instead of the one bounce value.
 </p>
 <br>
 
@@ -354,11 +367,11 @@ You will probably want to use the instructional machines for the above renders i
   <table style="width:100%">
     <tr align="center">
       <td>
-        <img src="images/your_file.png" align="middle" width="400px"/>
-        <figcaption>example1.dae</figcaption>
+        <img src="./images/lamb_demo.png" align="middle" width="400px"/>
+        <figcaption>CBSphere_lambertian.dae</figcaption>
       </td>
       <td>
-        <img src="images/your_file.png" align="middle" width="400px"/>
+        <img src="./images/bunny4-5-2.png" align="middle" width="400px"/>
         <figcaption>example2.dae</figcaption>
       </td>
     </tr>
@@ -374,11 +387,11 @@ You will probably want to use the instructional machines for the above renders i
   <table style="width:100%">
     <tr align="center">
       <td>
-        <img src="images/your_file.png" align="middle" width="400px"/>
+        <img src="./images/sphereDirect.png" align="middle" width="400px"/>
         <figcaption>Only direct illumination (example1.dae)</figcaption>
       </td>
       <td>
-        <img src="images/your_file.png" align="middle" width="400px"/>
+        <img src="./images/sphereIndirect.png" align="middle" width="400px"/>
         <figcaption>Only indirect illumination (example1.dae)</figcaption>
       </td>
     </tr>
@@ -390,8 +403,33 @@ You will probably want to use the instructional machines for the above renders i
 </p>
 <br>
 
+
+
+<h3>
+  For CBbunny.dae, compare rendered views with max_ray_depth set to 0, 1, 2, 3, 4, and 5 (the -m flag). Use 1024 samples per pixel Bounces
+   are not accumulated here.
+</h3>
+<!-- Example of including multiple figures -->
+<div align="middle">
+  <table style="width:100%">
+      <td>
+        <img src="./images/bunny-4-5.png" align="middle" width="400px"/>
+        <figcaption>max_ray_depth = 5 (CBbunny.dae)</figcaption>
+      </td>
+    </tr>
+  </table>
+</div>
+<br>
+<p>
+   I was not able to render all of the bunny images here, but in testing I was able to do so for the spheres function. As I moved from the second to third bounces of light
+  the image darkens significantly, with very little bounced illumination present on the objects. The second bounce still allows for some notable reflection
+  from around the scene, as seen by the illumination on the figures near the bottom. As such the objects are sharper as are the shadows.
+
+</p>
+<br>
+
   <h3>
-    For CBbunny.dae, compare rendered views with max_ray_depth set to 0, 1, 2, 3, and 4 (the -m flag). Use 1024 samples per pixel.
+    For CBbunny.dae, compare rendered views with max_ray_depth set to 0, 1, 2, 3, 4, and 5 (the -m flag). Use 1024 samples per pixel.
   </h3>
   <!-- Example of including multiple figures -->
   <div align="middle">
@@ -408,19 +446,31 @@ You will probably want to use the instructional machines for the above renders i
       </tr>
       <tr align="center">
         <td>
-          <img src="./images/spheres4-5-3.png" align="middle" width="400px"/>
+          <img src="./images/bunny4-5-2.png" align="middle" width="400px"/>
           <figcaption>max_ray_depth = 2 (CBbunny.dae)</figcaption>
         </td>
         <td>
-          <img src="./images/spheres4-5-4.png" align="middle" width="400px"/>
+          <img src="./images/bunny4-5-3.png" align="middle" width="400px"/>
           <figcaption>max_ray_depth = 3 (CBbunny.dae)</figcaption>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <img src="./images/bunny4-5-4.png" align="middle" width="400px"/>
+          <figcaption>max_ray_depth = 4 (CBbunny.dae)</figcaption>
+        </td>
+        <td>
+          <img src="./images/bunny4-5-5.png" align="middle" width="400px"/>
+          <figcaption>max_ray_depth = 5 (CBbunny.dae)</figcaption>
         </td>
       </tr>
     </table>
   </div>
   <br>
   <p>
-    YOUR EXPLANATION GOES HERE
+    Here we can see the that as max bounce increases, the shadows gradually become less harsh. Additionally areas of the image which aren't directly exposed
+    to light generally become a little bit brighter. After the third or fourth bounce though, differences become less and less apparent from
+    image to image, as light rays dissipate
   </p>
   <br>
 
@@ -444,21 +494,21 @@ You will probably want to use the instructional machines for the above renders i
     </tr>
     <tr align="center">
       <td>
-        <img src="./images/spheres4-6-2.png" align="middle" width="400px"/>
+        <img src="./images/bunny4-6-2.png" align="middle" width="400px"/>
         <figcaption>max_ray_depth = 2 (CBbunny.dae)</figcaption>
       </td>
       <td>
-        <img src="./images/spheres4-6-3.png" align="middle" width="400px"/>
+        <img src="./images/bunny4-6-3.png" align="middle" width="400px"/>
         <figcaption>max_ray_depth = 3 (CBbunny.dae)</figcaption>
       </td>
     </tr>
     <tr align="center">
       <td>
-        <img src="./images/spheres4-6-4" align="middle" width="400px"/>
+        <img src="./images/bunny4-6-4.png" align="middle" width="400px"/>
         <figcaption>max_ray_depth = 4 (CBbunny.dae)</figcaption>
       </td>
       <td>
-        <img src="./images/spheres4-6-100" align="middle" width="400px"/>
+        <img src="./images/bunny4-6-100.png" align="middle" width="400px"/>
         <figcaption>max_ray_depth = 100 (CBbunny.dae)</figcaption>
       </td>
     </tr>
@@ -466,7 +516,10 @@ You will probably want to use the instructional machines for the above renders i
 </div>
 <br>
 <p>
-    YOUR EXPLANATION GOES HERE
+    Here with russian roulette included, the images seem to be slightly darker than in the previous section, after the first bounce
+  since rays are gradually eliminated. There is also a minimal difference between the 100 ray render and the 5 ray render from the previous section
+  since there are already diminishing returns at higher ray bounces as the light becomes less powerful, and russian roulette eliminates
+  a good amount of rays by that point. As such, the render was not much slower than with max depth of 4.
 </p>
 <br>
 
@@ -508,7 +561,7 @@ You will probably want to use the instructional machines for the above renders i
     </tr>
     <tr align="center">
       <td>
-        <img src="images/spheres4-7-1024.png" align="middle" width="400px"/>
+        <img src="./images/spheres4-7-1024.png" align="middle" width="400px"/>
         <figcaption>1024 samples per pixel (CBsphere_lambertian.dae)</figcaption>
       </td>
     </tr>
@@ -516,7 +569,8 @@ You will probably want to use the instructional machines for the above renders i
 </div>
 <br>
 <p>
-    YOUR EXPLANATION GOES HERE
+    As samples increase the noise in each image decreases substantially. As such, shadows become sharper, objects become more clear
+  and the image tends to appear a little bit brighter due to better coverage from more samples.
 </p>
 <br>
 
@@ -529,7 +583,14 @@ Pick one scene and render it with at least 2048 samples per pixel. Show a good s
   Explain adaptive sampling. Walk through your implementation of the adaptive sampling.
 </h3>
 <p>
-    YOUR RESPONSE GOES HERE
+    Adaptive sampling allows for more efficient allocation of per pixel samples. This happens by stopping sampling early when sampled light rays begin to converge, allowing more resources
+  to be allocated towards higher sample rates for less flat, more detailed sections of the image where convergence happens later. I implemented this
+  by first tracking the illuminance values of each radiance value of each ray we sample. We add the value to s1 and the squared value to s2.
+  Now in each loop in the algorithm we check if there have been samplesPerBatch samples since the last convergence check. If there have been,
+  we take the mean of the illuminances using the s1 value and the number of samples taken so far
+  and then we take the variance of the illuminances using the s2 values. We then calculate
+  a constan in order to get 95 percent confidence intervals for convergence, by multiplying 1.96* the std_dev divided by the square root of the samples taken.
+  If this constant is less than the maxTolerances * mean, we break early and take no more samples for the pixel since we are reasonably sure the pixels have converged.
 </p>
 <br>
 
@@ -541,22 +602,22 @@ Pick one scene and render it with at least 2048 samples per pixel. Show a good s
   <table style="width:100%">
     <tr align="center">
       <td>
-        <img src="./images/bunny.pnge.png" align="middle" width="400px"/>
-        <figcaption>Rendered image (example1.dae)</figcaption>
+        <img src="./images/bunny.png" align="middle" width="400px"/>
+        <figcaption>Rendered image (CBbunny.dae)</figcaption>
       </td>
       <td>
         <img src="images/bunny_rate.png" align="middle" width="400px"/>
-        <figcaption>Sample rate image (example1.dae)</figcaption>
+        <figcaption>Sample rate image (CBbunny.dae)</figcaption>
       </td>
     </tr>
     <tr align="center">
       <td>
         <img src="images/spheresBig.png" align="middle" width="400px"/>
-        <figcaption>Rendered image (example2.dae)</figcaption>
+        <figcaption>Rendered image (CBspheres_lambertian.dae)</figcaption>
       </td>
       <td>
         <img src="./images/spheresBig_rate.png" align="middle" width="400px"/>
-        <figcaption>Sample rate image (example2.dae)</figcaption>
+        <figcaption>Sample rate image (CBspheres_lambertian)</figcaption>
       </td>
     </tr>
   </table>
